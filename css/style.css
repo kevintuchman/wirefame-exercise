@@ -1,0 +1,97 @@
+header {
+  background: rgb(5, 5, 5);
+  color: gray;
+  height: 70px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20pt;
+}
+
+nav {
+  font-size: 16pt;
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav img {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  width: 190px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+#sub-banners {
+  margin: 30px 0;
+}
+
+#sub-banners section {
+  color: gray;
+  background: rgb(5, 5, 5);
+  float: left;
+  width: 300px;
+  height: 375px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 375px;
+  margin-bottom: 30px;
+}
+
+#sub-banners section:nth-child(2) {
+  margin: 0 25px;
+}
+
+#featured-section {
+  margin: 30px 0;
+}
+
+#fs-banner {
+  color: gray;
+  background:rgb(5, 5, 5);
+  float: left;
+  width: 50%;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  border: 1px solid black;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+#featured-section h3 {
+  font-size: 16pt;
+  margin-bottom: 1em;
+}
+
+#featured-section button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#button {
+  float: right;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  color: gray;
+  background:rgb(5, 5, 5);
+}
